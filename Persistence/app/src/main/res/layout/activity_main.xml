@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp" tools:context=".MainActivity">
+
+  <EditText
+      android:id="@+id/name"
+      style="@style/EditTextStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="12dp"
+      android:ems="10"
+      android:inputType="text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/nameLabel" />
+
+  <Button
+      android:id="@+id/viewDetailsBtn"
+      style="@style/ButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="8dp"
+      android:text="VIEW DETAILS"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/Email" />
+
+  <EditText
+      android:id="@+id/Email"
+      style="@style/EditTextStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:ems="10"
+      android:inputType="text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/emailLabel" />
+
+  <TextView
+      android:id="@+id/nameLabel"
+      style="@style/LabelTextStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="12dp"
+      android:text="Name:"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/selectedAvatar" />
+
+  <TextView
+      android:id="@+id/avatarLabel"
+      style="@style/LabelTextStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="20dp"
+      android:text="Avatar:"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/chooseAvatarBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:text="Choose Avatar"
+      app:layout_constraintBottom_toBottomOf="@id/selectedAvatar"
+      app:layout_constraintStart_toEndOf="@id/selectedAvatar"
+      app:layout_constraintTop_toTopOf="@id/selectedAvatar"
+      app:layout_constraintVertical_bias="0.406" />
+
+  <EditText
+      android:id="@+id/dob"
+      style="@style/EditTextStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:ems="10"
+      android:inputType="text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/dobLabel" />
+
+  <Button
+      android:id="@+id/button"
+      style="@style/ButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="92dp"
+      android:layout_marginTop="8dp"
+      android:text="SAVE DETAILS"
+      app:layout_constraintStart_toEndOf="@id/viewDetailsBtn"
+      app:layout_constraintTop_toBottomOf="@id/Email" />
+
+  <ImageView
+      android:id="@+id/selectedAvatar"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="12dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/avatar1"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/avatarLabel" />
+
+  <TextView
+      android:id="@+id/emailLabel"
+      style="@style/LabelTextStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="8dp"
+      android:text="Email:"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/dob" />
+
+  <TextView
+      android:id="@+id/dobLabel"
+      style="@style/LabelTextStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="28dp"
+      android:layout_marginTop="12dp"
+      android:text="Date of Birth:"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

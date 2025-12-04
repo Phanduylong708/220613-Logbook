@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="previous_button_text">Previous</string>
+    <string name="next_button_text">Next</string>
+    <string name="image_viewer_description">Image viewer</string>
+    <string name="no_more_images">No more images</string>
+</resources>

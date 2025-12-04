@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="result_label">Result: %1$s</string>
+    <string name="error_empty_input">Result: Please enter both numbers!</string>
+    <string name="error_invalid_format">Result: Invalid number format!</string>
+    <string name="error_divide_by_zero">Result: Cannot divide by zero!</string>
+</resources>

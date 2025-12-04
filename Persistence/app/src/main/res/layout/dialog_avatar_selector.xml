@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="3" android:padding="16dp">
+
+  <ImageView android:id="@+id/avatar1" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="8dp" android:src="@drawable/avatar1" android:scaleType="centerCrop" android:clickable="true" android:focusable="true" />
+
+  <ImageView android:id="@+id/avatar2" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="8dp" android:src="@drawable/avatar2" android:scaleType="centerCrop" android:clickable="true" android:focusable="true" />
+
+  <ImageView android:id="@+id/avatar3" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="8dp" android:src="@drawable/avatar3" android:scaleType="centerCrop" android:clickable="true" android:focusable="true" />
+
+  <ImageView android:id="@+id/avatar4" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="8dp" android:src="@drawable/avatar4" android:scaleType="centerCrop" android:clickable="true" android:focusable="true" />
+
+  <ImageView android:id="@+id/avatar5" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="8dp" android:src="@drawable/avatar5" android:scaleType="centerCrop" android:clickable="true" android:focusable="true" />
+
+</GridLayout>
